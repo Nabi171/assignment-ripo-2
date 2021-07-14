@@ -85,10 +85,6 @@ transition: 1s linear;
     color: #FFFFFF;
     font-weight: 600;
     font-size: x-large;
-
-
-
-
 }
 
 .copa-btn{
@@ -101,6 +97,13 @@ padding-left: 3px;
 background-image: linear-gradient(#E02C6D,#751d2d);
 color: honeydew;
 margin-left: 30px;
+
+}
+.anchor-btn{
+
+text-decoration: none;
+list-style: none;
+color: white;
 }
 
 
@@ -211,7 +214,10 @@ padding-bottom: 5px;
       width:100%
   }
   
-    
+  .copa-banner img{
+    width: 100%;
+ 
+ }
     
     
     }
@@ -250,6 +256,10 @@ padding-bottom: 5px;
                display: grid;
                grid-template-columns: repeat(1,1fr);
                }
+               .copa-banner img{
+                width: 100%;
+             
+             }
 
 }
 @media only screen and (max-width: 600px){
@@ -289,6 +299,10 @@ border-radius: 50px;
                            display: grid;
                            grid-template-columns: repeat(1,1fr);
      }
+     .copa-banner img{
+        width: 100%;
+     
+     }
 }
 
 	/*Small smartphones */
@@ -325,4 +339,11 @@ border-radius: 50px;
                 display: grid;
                 grid-template-columns: repeat(1,1fr);
                 }
+
+
+                .copa-banner img{
+                   width: 100%;
+                
+                }
+
 }
