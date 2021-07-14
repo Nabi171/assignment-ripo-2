@@ -1,0 +1,328 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+
+
+
+body{
+   margin: 0;
+   padding: 0;
+    background-color: #F3F1FF;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+/***************************** nav-var css star********************* */
+.nav-var{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #562EFF;
+    list-style: none;
+    height: 11%;
+    justify-content: center;
+    list-style: none;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.nav{
+    margin-left: 4%;
+    padding-top: 1%;
+    padding-bottom:1% ;
+    list-style: none;
+    font-style: oblique;
+
+ }
+.nav1{
+        color: #FFFFFF;
+        text-decoration: none;
+ }
+ .nav1:hover{
+color:black;
+background-color: honeydew;
+transition: 1s linear;
+border-radius: 5px;
+padding:4px 4px 4px 4px;
+
+ }
+    
+/***************************** nav-var css close********************* */
+
+/***************************** 1st part start********************* */
+.copa-1st-part{
+background-color:#562EFF;
+border: 1px solid #562EFF ;
+Width :100%;
+Height:25%;
+border-radius: 5px;
+box-shadow: 2px 2px 2px gray;
+
+}
+.copa-america{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.copa-title{
+box-shadow: 20px 20px 29px gray;
+border-radius: 6px;
+border: 2px solid gray;
+background-color:  #FFFFFF;
+opacity: 0;
+margin-right: 5%;
+margin-bottom: 5%;
+}
+.copa-america:hover .copa-title{
+opacity: .7;
+transition: 1s linear;
+
+}
+
+.copa-heading{
+    height: 15%;
+    padding-left: 80px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: x-large;
+
+
+
+
+}
+
+.copa-btn{
+height: 40px;
+width: 80px;
+color: #E02C6D;
+border: 1px solid red;
+border-radius: 5px;
+padding-left: 3px;
+background-image: linear-gradient(#E02C6D,#751d2d);
+color: honeydew;
+margin-left: 30px;
+}
+
+
+.copa-banner img{
+    width: 555px;
+    height: 440px;
+
+}
+/***************************** 1st part close ********************* */
+
+/***************************** 2nd part start********************* */
+.container{
+
+width:80%;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 5%;
+box-shadow: 2px 2px 2px  rgb(243, 240, 240);
+border-radius: 2px;
+background-color:  #FFFFFF;
+}
+.players{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+
+}
+.player img{
+    Width:30%;
+
+Height:50%;
+border-radius: 5px;
+}
+.player{
+box-shadow: 5px 3px 5px  gray;
+border-radius: 2px;
+margin-left: 3%;
+margin-right: 3%;
+margin-top: 3%;
+margin-bottom: 3%;
+padding-bottom: 3%;
+opacity: 0.7;
+}
+
+.player:hover{
+    box-shadow: 8px 6px 8px  gray;
+transition: .5s linear;
+opacity: 1;
+}
+/***************************** 2nd part close********************* */
+/***************************** 3rd part start********************* */
+.heighlits-container{
+display: flex;
+width:80%;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 5%;
+margin-bottom: 5%;
+box-shadow: 5px 4px 5px solid gray;
+background-color:  #FFFFFF;
+}
+.heighlits-container-para{
+padding-left: 20px;
+padding-right: 20px;
+
+}
+.heighlits-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+/***************************** 3rd part close********************* */
+
+/***************************** footer part start********************* */
+
+footer{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+justify-items: center;
+box-shadow: 10px 10px 10px gray;
+border-radius: 10px;
+background-color:#FFFFFF ;
+padding-bottom: 5px;
+}
+.icon{
+    color: red;
+}
+.icon1{
+    color:rgb(59, 126, 172);
+}
+.icon2{
+    color:rgb(202, 77, 98);
+}
+.icon3{
+    color: rgb(56, 143, 170);
+}
+
+/* footer close */
+
+@media screen and (max-width: 480px) {
+   
+
+
+  .players{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      width:100%
+  }
+  
+    
+    
+    
+    }
+/* tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .players{
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+    .player{
+
+        margin-bottom: 50px;
+        padding-bottom: 50px; 
+    }
+    .player img{
+        Width:25%;
+    
+    Height:25%;
+    border-radius: 50px;
+    }
+    .heighlits-container{
+        display: flex;
+       flex-direction: column;
+        }
+  
+        footer{
+            display: block;
+            align-items: center;
+               
+            }
+
+    .copa-america{
+               display: grid;
+               grid-template-columns: repeat(1,1fr);
+               }
+
+}
+@media only screen and (max-width: 600px){
+    .players{
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+}
+.player{
+
+    margin-bottom: 50px;
+    padding-bottom: 50px; 
+}
+.player img{
+    Width:25%;
+
+Height:25%;
+border-radius: 50px;
+}
+.heighlits-container{
+    display: flex;
+   flex-direction: column;
+    }
+    .footer{
+
+        width: 100%;
+        
+                    }
+  footer{
+                        display: block;
+                        align-items: center;
+                           
+                        }
+    .copa-america{
+                           display: grid;
+                           grid-template-columns: repeat(1,1fr);
+     }
+}
+
+	/*Small smartphones */
+
+@media only screen and (max-width: 425px){
+    .players{
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 50px;
+        padding-bottom: 50px;}	
+
+        .player{
+
+            margin-bottom: 50px;
+            padding-bottom: 50px; 
+        }
+        .player img{
+            Width:25%;
+        
+        Height:25%;
+        border-radius: 50px;
+        }
+        .heighlits-container{
+            display: flex;
+           flex-direction: column;
+            }
+            footer{
+             display: block;
+             align-items: center;
+                
+             }
+             .copa-america{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                }
+}
